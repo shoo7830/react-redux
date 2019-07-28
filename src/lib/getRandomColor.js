@@ -1,4 +1,4 @@
-export function getRendomColor() {
+export default function getRendomColor() {
     const colors =[
         '#495057',
         '#f03e3e',

@@ -2,7 +2,7 @@ import React from 'react';
 import Counter from './Counter';
 import PropTypes from 'prop-types';
 
-import './CountList.css';
+import './CounterList.css';
 
 const CounterList = ({counters, onIncrement, onDecrement, onSetColor}) => {
     const counterList = counters.map(
@@ -33,7 +33,7 @@ CounterList.propTypes ={
 };
 
 CounterList.defaultProps = {
-    counter: []
+    counters: []
 }
 
 export default CounterList;
